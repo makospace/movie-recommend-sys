@@ -1,46 +1,86 @@
-# movie-recommend-sys
-在本项目的网址前面加上gitpod.io/#/...(后面是github项目网址），打卡gitpod
+# Movie-Recommender-System
+A Web Base user-item Movie Recommendation Engine using Collaborative Filtering By matrix factorizations algorithm and
+The recommendation based on the underlying idea that is if two persons both liked certian common movies,then the movies that one person has liked that the other person has not yet watched can be recommended to him.   
+### Screenshot
 
-打开之后会一直转圈，等15分钟左右，会显示命令行：
-[notice] A new release of pip available: 22.2.2 -> 22.3.1
-[notice] To update, run: pip install --upgrade pip
-gitpod /workspace/Movie-Recommender-System (master) $ 
+###### Home page
+![home](https://user-images.githubusercontent.com/20842692/45380125-941d7500-b61f-11e8-852d-c09e9586b35b.png)
 
-这时候有ERROR
+###### Recommendation page
+![recom](https://user-images.githubusercontent.com/20842692/45380167-b57e6100-b61f-11e8-8ec0-e07c26daa4a3.jpg)
 
-在项目目录下执行：virtualenv .
-执行：
-pip install --upgrade pip
+###### Rating page
+![rate](https://user-images.githubusercontent.com/20842692/45380186-be6f3280-b61f-11e8-8ad6-8b967d1cba1a.png)
 
+### Technologies Used
 
-python -m pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
+#### Web Technologies
+Html , Css , JavaScript , Bootstrap , Django
 
+#### Machine Learning Library In Python3
+Numpy , Pandas , Scipy
 
-pip3 install scipy
+#### Database
+SQLite
 
+##### Requirements
+```
+python 3.6
 
-pip install Django==2.0.12
+pip3
 
-然后执行：
+virtualenv
+```
+##### Setup to run
+
+Extract zip file in your computer
+
+Open terminal/cmd promt
+
+Goto that Path
+
+Example
+
+```
+cd ~/Destop/Movie-Recommender-System
+```
+Create a new virtual environment on that directory
+
+```
+virtualenv .
+```
+
+Activate Your Virtual Environment
+
+for Linux
+```
+source bin/activate
+```
+for Windows
+```
+cd Scripts
+then
+activate
+```
+To install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Creating Local Server
+
+Goto src directory, example
+
+```
+cd ../Movie-Recommender-System/src
+```
+To run
+```
 python manage.py runserver
-就打开了8000端口，直接点击进入
-
-
-//
-ctrl+C
-
-pip install --upgrade pip
-
-
-python -m pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
-
-
-pip3 install scipy
-
-
-pip install Django==2.0.12
-
-
-python manage.py runserver
-
-
+```
+Now open your browser and go to this address
+```
+http://127.0.0.1:8000
+```
+Thank you for visiting my repository.
