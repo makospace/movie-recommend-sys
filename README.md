@@ -1,4 +1,4 @@
-在本项目的网址前面加上gitpod.io/#/...(后面是github项目网址），打卡gitpod
+在本项目的网址前面加上gitpod.io/#/...(后面是github项目网址），打开gitpod
 
 打开之后会一直转圈，等15分钟左右，会显示命令行：
 [notice] A new release of pip available: 22.2.2 -> 22.3.1
